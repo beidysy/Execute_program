@@ -15,4 +15,5 @@ def send_mail(email, password, message):
 command = ''
 subprocess.Popen(command, shell=True)
 
-send_mail("beidycourse@gmail.com", "Djita17021@", "Beidy Just trying hehehe")
+send_mail("Put your google email address",
+          "Get a google app password", "The message that should be print")
